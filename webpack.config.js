@@ -38,7 +38,9 @@ module.exports = {
 
     filename: '[hash].js',
 
-    path: path.resolve(__dirname, 'dist')
+    path: path.resolve(__dirname, 'dist'),
+
+    publicPath: '/'
 
   },
 
@@ -93,6 +95,9 @@ module.exports = {
 
     ]
 
+  },
+  devServer: {
+    historyApiFallback: true,
   },
 
   plugins: [htmlWebpackPlugin, miniCssExtractPlugin]

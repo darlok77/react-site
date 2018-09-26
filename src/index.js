@@ -1,16 +1,5 @@
 import React from 'react'
 import ReactDOM from 'react-dom'
-import Home from './home'
-import Header from './header'
-import FooterPage from './footer'
-
-const App = () => (
-  <div>
-    <Header />
-    <Home />
-    <FooterPage />
-  </div>
-
-)
+import App from './App'
 
 ReactDOM.render(<App />, document.body)

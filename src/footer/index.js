@@ -10,7 +10,8 @@ class FooterPage extends Component {
       <Footer color="unique-color-dark" className="page-footer font-small pt-0">
         <div className="footer-copyright text-center py-3">
           <Container fluid>
-            {`&copy; ${new Date().getFullYear()} Copyright:  Guillaume DALLEAU`}
+            &copy;
+            {`${new Date().getFullYear()} Copyright:  Guillaume DALLEAU`}
           </Container>
         </div>
       </Footer>
